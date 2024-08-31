@@ -1,0 +1,118 @@
+{
+  "petWellnessSupplements": [
+    {
+      "id": 1,
+      "name": "Omega-3 Fish Oil",
+      "price": "₹1,200",
+      "imageUrl": "https://example.com/omega3-fish-oil.jpg",
+      "description": "Supports healthy skin, coat, and joint function. Ideal for pets with skin allergies and joint issues.",
+      "purpose": "Skin and Joint Health",
+      "quantity": "120 capsules"
+    },
+    {
+      "id": 2,
+      "name": "Multivitamin Chews",
+      "price": "₹900",
+      "imageUrl": "https://example.com/multivitamin-chews.jpg",
+      "description": "Provides essential vitamins and minerals to support overall health and well-being.",
+      "purpose": "General Health",
+      "quantity": "60 chews"
+    },
+    {
+      "id": 3,
+      "name": "Probiotic Powder",
+      "price": "₹1,500",
+      "imageUrl": "https://example.com/probiotic-powder.jpg",
+      "description": "Promotes a healthy digestive system and improves gut health. Suitable for pets with digestive issues.",
+      "purpose": "Digestive Health",
+      "quantity": "100 grams"
+    }
+  ],
+  "premiumPetFood": [
+    {
+      "id": 1,
+      "name": "Grain-Free Chicken & Sweet Potato",
+      "price": "₹1,500",
+      "imageUrl": "https://example.com/grain-free-chicken.jpg",
+      "description": "High-protein dog food made with real chicken and sweet potatoes. Grain-free formula suitable for sensitive stomachs.",
+      "purpose": "High Protein and Digestive Health",
+      "quantity": "5 kg"
+    },
+    {
+      "id": 2,
+      "name": "Salmon & Rice Formula",
+      "price": "₹1,200",
+      "imageUrl": "https://example.com/salmon-rice-formula.jpg",
+      "description": "Nutrient-rich food made with salmon and rice. Supports healthy skin, coat, and overall health.",
+      "purpose": "Skin and Coat Health",
+      "quantity": "4 kg"
+    },
+    {
+      "id": 3,
+      "name": "Lamb & Vegetable Recipe",
+      "price": "₹1,800",
+      "imageUrl": "https://example.com/lamb-vegetable-recipe.jpg",
+      "description": "Delicious and balanced food made with lamb and vegetables. Great for maintaining healthy weight and muscle mass.",
+      "purpose": "Weight Management and Muscle Health",
+      "quantity": "6 kg"
+    }
+  ],
+  "grooming": [
+    {
+      "id": 1,
+      "name": "Full Body Grooming",
+      "price": "₹2,500",
+      "imageUrl": "https://example.com/full-body-grooming.jpg",
+      "description": "Complete grooming package for your pet, including bath, haircut, nail trimming, and ear cleaning.",
+      "purpose": "Complete Grooming",
+      "quantity": "1 session"
+    },
+    {
+      "id": 2,
+      "name": "Nail Clipping & Paw Massage",
+      "price": "₹1,200",
+      "imageUrl": "https://example.com/nail-clipping.jpg",
+      "description": "Professional nail clipping followed by a soothing paw massage to keep your pet relaxed.",
+      "purpose": "Nail Care",
+      "quantity": "1 session"
+    },
+    {
+      "id": 3,
+      "name": "Flea & Tick Treatment",
+      "price": "₹1,000",
+      "imageUrl": "https://example.com/flea-tick-treatment.jpg",
+      "description": "Effective flea and tick treatment to protect your pet from parasites.",
+      "purpose": "Pest Control",
+      "quantity": "1 treatment"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 1,
+      "name": "Luxury Collar & Leash Set",
+      "price": "₹1,500",
+      "imageUrl": "https://example.com/luxury-collar.jpg",
+      "description": "Elegant and durable collar and leash set made from premium materials. Stylish and comfortable for your pet.",
+      "purpose": "Fashionable Walks",
+      "quantity": "1 set"
+    },
+    {
+      "id": 2,
+      "name": "Designer Pet Bed",
+      "price": "₹2,000",
+      "imageUrl": "https://example.com/designer-pet-bed.jpg",
+      "description": "Comfortable and stylish pet bed designed to blend with your home decor while providing a cozy spot for your pet.",
+      "purpose": "Comfortable Sleeping",
+      "quantity": "1 bed"
+    },
+    {
+      "id": 3,
+      "name": "Personalized Pet Tag",
+      "price": "₹500",
+      "imageUrl": "https://example.com/personalized-pet-tag.jpg",
+      "description": "Customizable pet tag with your pet's name and contact information. Available in various shapes and colors.",
+      "purpose": "Identification",
+      "quantity": "1 Tag"
+    }
+  ]
+}
