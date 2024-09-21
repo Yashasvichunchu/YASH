@@ -67,6 +67,28 @@ nav {
     color: #000;
 }
 
+.Donations-btn {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Donations-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
 /* Hero section */
 .hero {
     background: url('https://cdn.shopify.com/s/files/1/0082/9050/0688/files/Natural_calming_aids_for_dogs_uk.jpg?v=1697748528') no-repeat center center/cover;
