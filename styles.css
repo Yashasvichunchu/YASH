@@ -52,17 +52,19 @@ nav {
     font-weight: bold;
 }
 
-.explore-btn {
-    padding: 10px 20px;
+.explore-btn, .login-btn, .donations-btn {
+    padding: 15px 20px;
     border: 2px solid #fff;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
+    margin-left: 5px;
+    
 }
 
-.explore-btn:hover {
+.explore-btn:hover, .login-btn:hover, .donations-btn:hover {
     background-color: #fff;
     color: #000;
 }
