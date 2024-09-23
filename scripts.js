@@ -73,3 +73,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const loginBtn = document.getElementById("login-btn");
+    
+    // Add a click event listener to the login button
+    loginBtn.addEventListener("click", (event) => {
+      event.preventDefault(); // Prevent default link behavior
+  
+      // Mount the Clerk sign-in component
+      window.Clerk.mountSignIn("#clerk-sign-in");
+    });
+  });
+  
+  window.Clerk.load({
+    publishableKey: 'pk_test_YW11c2VkLXBhbmdvbGluLTE1LmNsZXJrLmFjY291bnRzLmRldiQ'
+  });
+  

@@ -52,7 +52,7 @@ nav {
     font-weight: bold;
 }
 
-.explore-btn {
+.explore-btn, .login-btn, .donations-btn {
     padding: 10px 20px;
     border: 2px solid #fff;
     color: #fff;
@@ -60,9 +60,11 @@ nav {
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
+    margin-left: 5px;
+    
 }
 
-.explore-btn:hover {
+.explore-btn:hover, .login-btn:hover, .donations-btn:hover {
     background-color: #fff;
     color: #000;
 }
@@ -82,11 +84,17 @@ nav {
     color: #000;
 }
 
-
-
-
-
-
+#clerk-sign-in {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Make sure it's on top of other elements */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
 
 
 /* Hero section */
