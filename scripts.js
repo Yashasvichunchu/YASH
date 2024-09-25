@@ -89,3 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
     publishableKey: 'pk_test_YW11c2VkLXBhbmdvbGluLTE1LmNsZXJrLmFjY291bnRzLmRldiQ'
   });
   
+  import { Clerk } from '@clerk/clerk-js';
+
+Clerk.load();

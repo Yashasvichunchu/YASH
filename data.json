@@ -26,6 +26,15 @@
       "description": "Promotes a healthy digestive system and improves gut health. Suitable for pets with digestive issues.",
       "purpose": "Digestive Health",
       "quantity": "100 grams"
+    },
+    {
+      "id": 4,
+      "name": "Glucosamine Joint Supplement",
+      "price": "₹1,800",
+      "imageUrl": "https://example.com/glucosamine-joint-supplement.jpg",
+      "description": "Helps maintain healthy joints and cartilage. Ideal for aging pets or those with joint issues.",
+      "purpose": "Joint Health",
+      "quantity": "90 tablets"
     }
   ],
   "premiumPetFood": [
@@ -55,6 +64,15 @@
       "description": "Delicious and balanced food made with lamb and vegetables. Great for maintaining healthy weight and muscle mass.",
       "purpose": "Weight Management and Muscle Health",
       "quantity": "6 kg"
+    },
+    {
+      "id": 4,
+      "name": "Duck & Pea Formula",
+      "price": "₹2,000",
+      "imageUrl": "https://example.com/duck-pea-formula.jpg",
+      "description": "Premium grain-free formula made with duck and peas. Ideal for pets with food sensitivities.",
+      "purpose": "Food Sensitivity and Digestive Health",
+      "quantity": "5 kg"
     }
   ],
   "grooming": [
@@ -84,6 +102,15 @@
       "description": "Effective flea and tick treatment to protect your pet from parasites.",
       "purpose": "Pest Control",
       "quantity": "1 treatment"
+    },
+    {
+      "id": 4,
+      "name": "De-Shedding Treatment",
+      "price": "₹1,500",
+      "imageUrl": "https://example.com/deshedding-treatment.jpg",
+      "description": "Specialized de-shedding service to remove loose fur and reduce shedding. Ideal for long-haired pets.",
+      "purpose": "Shedding Control",
+      "quantity": "1 session"
     }
   ],
   "accessories": [
@@ -113,6 +140,15 @@
       "description": "Customizable pet tag with your pet's name and contact information. Available in various shapes and colors.",
       "purpose": "Identification",
       "quantity": "1 Tag"
+    },
+    {
+      "id": 4,
+      "name": "Pet Travel Carrier",
+      "price": "₹3,000",
+      "imageUrl": "https://example.com/pet-travel-carrier.jpg",
+      "description": "Durable and lightweight pet carrier with proper ventilation. Perfect for safe and comfortable travels with your pet.",
+      "purpose": "Safe Travel",
+      "quantity": "1 carrier"
     }
   ]
 }

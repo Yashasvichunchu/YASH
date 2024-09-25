@@ -387,64 +387,94 @@ nav {
 }
 
 
-
-/* Accordion styles */
-.accordion-item {
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-.accordion-header {
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    font-size: 20px;
-    background-color: #ff4500;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.accordion-button {
-    background: none;
-    border: none;
-    width: 100%;
-    text-align: left;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
-}
-
-.accordion-content {
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
-
-.accordion-content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.accordion-content p {
-    margin-bottom: 10px;
-    font-size: 16px;
+    padding: 0;
+    background-color: #f5f5f5;
     color: #333;
 }
 
-.accordion-content strong {
-    font-weight: bold;
+/* Styling the products section */
+.products {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.accordion-button.active {
-    background-color: #e63900;
+/* Product item styling */
+.product-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
 }
 
-.accordion-button.active + .accordion-content {
-    max-height: 500px; /* Adjust as needed for content */
+/* Product image */
+.product-item img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
 }
+
+/* Product content */
+.product-content {
+    flex: 1;
+}
+
+/* Product name */
+.product-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Product description, purpose, quantity, and price */
+.product-content p {
+    margin: 5px 0;
+}
+
+.product-content p strong {
+    color: #e67e22;
+}
+
+/* Styling the price */
+.product-content .price {
+    font-size: 1.25rem;
+    color: #e74c3c;
+}
+
+.product-content p:last-of-type{
+    margin-bottom: 15px;
+}
+
+/* Add to Cart button styling */
+.add-to-cart-btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d35400;
+}
+
+
+
+
+
+
+
+
+
