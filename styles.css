@@ -111,7 +111,7 @@ nav {
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 
@@ -386,6 +386,41 @@ nav {
     }
 }
 
+.hero-grooming{
+    background: url('https://www.teamais.net/wp-content/uploads/2020/12/9-min.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+    
+}
+
+.hero-wellness{
+    background: url('https://belivepetscare.com.my/wp-content/uploads/2024/01/Pet-Supplement-Dosage.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-food{
+    background: url('https://www.angellpetco.com/wp-content/uploads/2019/10/5a.-Superior-Maintenance.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-accessories{
+    background: url('https://images.livemint.com/img/2022/07/27/1200x900/dressed_up_dogs_Photo_by_Karsten_Winegeart_on_Unsplash_1658911650097_1658911657334_1658911657334.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-blog{
+    background: url('https://images.unsplash.com/photo-1563460716037-460a3ad24ba9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nJTIwYW5kJTIwY2F0fGVufDB8fDB8fHww') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
 
 /* General page styling */
 body {
@@ -469,6 +504,286 @@ body {
 .add-to-cart-btn:hover {
     background-color: #d35400;
 }
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.donations-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* NGO Card Styles */
+.ngo-card {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.ngo-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.ngo-img {
+    flex: 0 0 250px;
+}
+
+.ngo-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Card Styles */
+.ngo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s; /* Smooth transition for the card */
+}
+
+.ngo-card:hover {
+    transform: translateY(-5px); /* Lift the card 5px up on hover */
+}
+
+
+/*Button Styles */
+.donate-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e67e22;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.donate-btn:hover {
+    background-color: #d35400;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .ngo-card {
+        flex-direction: column;
+    }
+
+    .ngo-img {
+        flex: none;
+        text-align: center;
+    }
+
+    .ngo-img img {
+        border-radius: 8px;
+    }
+}
+
+/* Image Styles */
+.ngo-card img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+.ngo-card img:hover {
+    transform: scale(1.05); /* Scale the image to 105% on hover */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-form {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form .send-btn {
+    background-color: #f05025;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form .send-btn:hover {
+    background-color: #e63900;
+}
+
+.contact-info {
+    flex-basis: 40%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.follow-us {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.line {
+    width: 50px; /* Adjust the width to your needs */
+    height: 3px;  /* Height of the line */
+    background-color: #f05025; /* Orange color */
+    margin: 10px auto; /* Center the line and space around it */
+}
+
+
+.blog-section {
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.blog-card img:hover{
+    transform: scale(1.05);
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.date {
+    font-size: 20px;
+    color: #f05025;
+    margin-bottom: 15px;
+}
+
+.blog-content p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #f05025;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+
 
 
 

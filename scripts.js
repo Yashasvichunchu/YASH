@@ -92,3 +92,16 @@ document.addEventListener("DOMContentLoaded", () => {
   import { Clerk } from '@clerk/clerk-js';
 
 Clerk.load();
+
+function toggleReadMore(index) {
+    var moreText = document.getElementById("more" + index);
+    var readMoreLink = document.querySelector(`.blog-card:nth-child(${index}) .read-more`);
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        readMoreLink.innerHTML = "Read Less »";
+    } else {
+        moreText.style.display = "none";
+        readMoreLink.innerHTML = "Read More »";
+    }
+}
