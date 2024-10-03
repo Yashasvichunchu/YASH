@@ -1,0 +1,918 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero-text {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 24px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.explore-btn, .login-btn, .donations-btn {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 5px;
+    
+}
+
+.explore-btn:hover, .login-btn:hover, .donations-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.Donations-btn {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Donations-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#clerk-sign-in {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Make sure it's on top of other elements */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+
+/* Hero section */
+.hero {
+    background: url('https://cdn.shopify.com/s/files/1/0082/9050/0688/files/Natural_calming_aids_for_dogs_uk.jpg?v=1697748528') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #e63900;
+}
+
+/*passion for pets section */
+
+.passion-for-pets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #f8f8f8;
+}
+
+.passion-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.passion-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.passion-text {
+    max-width: 500px;
+}
+
+.passion-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.passion-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-size: 1rem;
+    color: #ff5a5f;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.read-more:hover {
+    border-bottom: 2px solid #ff5a5f;
+}
+
+
+/* Offerings section */
+.offerings {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.offering-item {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    flex-basis: 45%;
+}
+
+.offering-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.offering-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.offering-item h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.offering-item p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #888;
+}
+
+.offering-item a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offering-item a:hover {
+    text-decoration: underline;
+}
+
+/* Join Us section */
+.join-us {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #fff;
+}
+
+.join-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.join-btn {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.join-btn:hover {
+    background-color: #e63900;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .offerings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offering-item {
+        margin-bottom: 30px;
+    }
+}
+
+/* Details section styling */
+.details {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.detail-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.detail-item h3 {
+    margin-bottom: 10px;
+    font
+    -size: 24px;
+    color: #333;
+}
+
+.detail-item p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.detail-item strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Pet Consultations Section */
+#pet-consultations {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 50px 0;
+}
+
+.consultation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.consultation-text {
+    max-width: 50%;
+}
+
+.consultation-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.consultation-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-bottom: 30px; /* Increased margin to space out the items */
+    font-size: 18px;
+    padding-bottom: 15px; /* Add space below the text */
+    border-bottom: 1px solid #666; /* Add a thin dividing line */
+}
+
+.consultation-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+.consultation-text ul li {
+    margin-bottom: 30px; /* Increased margin to space out the items */
+    font-size: 18px;
+    padding-bottom: 15px; /* Add space below the text */
+    border-bottom: 1px solid #666; /* Add a thin dividing line */
+}
+
+.consultation-text ul li:last-child {
+    border-bottom: none; /* Remove the line after the last item */
+}
+
+
+.consultation-text ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.consultation-text ul li strong {
+    font-size: 20px;
+}
+
+.consultation-image {
+    max-width: 40%;
+}
+
+.consultation-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Responsive for Consultations */
+@media (max-width: 768px) {
+    .consultation-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .consultation-text {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .consultation-image {
+        max-width: 100%;
+    }
+}
+
+.hero-grooming{
+    background: url('https://www.teamais.net/wp-content/uploads/2020/12/9-min.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+    
+}
+
+.hero-wellness{
+    background: url('https://belivepetscare.com.my/wp-content/uploads/2024/01/Pet-Supplement-Dosage.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-food{
+    background: url('https://www.angellpetco.com/wp-content/uploads/2019/10/5a.-Superior-Maintenance.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-accessories{
+    background: url('https://images.livemint.com/img/2022/07/27/1200x900/dressed_up_dogs_Photo_by_Karsten_Winegeart_on_Unsplash_1658911650097_1658911657334_1658911657334.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-blog{
+    background: url('https://images.unsplash.com/photo-1563460716037-460a3ad24ba9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nJTIwYW5kJTIwY2F0fGVufDB8fDB8fHww') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+.hero-aboutus{
+    background: url('https://www.nespthreatenedspecies.edu.au/media/dzhnixjo/cat-outside_credit-rotiv-artic-unsplash.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+.hero-offering{
+    background: url('https://canna-pet.com/wp-content/uploads/2019/06/PuppyFoodFT-1024x683.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+
+
+
+
+
+
+
+.hero-explore{
+    background: url('https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MjAwNjM1MzU1Mzk5OTg4MzMy/300-aesthetic-cat-names.png') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+
+
+
+
+
+
+
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Styling the products section */
+.products {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Product item styling */
+.product-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Product image */
+.product-item img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Product content */
+.product-content {
+    flex: 1;
+}
+
+/* Product name */
+.product-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Product description, purpose, quantity, and price */
+.product-content p {
+    margin: 5px 0;
+}
+
+.product-content p strong {
+    color: #e67e22;
+}
+
+/* Styling the price */
+.product-content .price {
+    font-size: 1.25rem;
+    color: #e74c3c;
+}
+
+.product-content p:last-of-type{
+    margin-bottom: 15px;
+}
+
+/* Add to Cart button styling */
+.add-to-cart-btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #d35400;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.donations-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* NGO Card Styles */
+.ngo-card {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.ngo-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.ngo-img {
+    flex: 0 0 250px;
+}
+
+.ngo-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Card Styles */
+.ngo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s; /* Smooth transition for the card */
+}
+
+.ngo-card:hover {
+    transform: translateY(-5px); /* Lift the card 5px up on hover */
+}
+
+
+/*Button Styles */
+.donate-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e67e22;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.donate-btn:hover {
+    background-color: #d35400;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .ngo-card {
+        flex-direction: column;
+    }
+
+    .ngo-img {
+        flex: none;
+        text-align: center;
+    }
+
+    .ngo-img img {
+        border-radius: 8px;
+    }
+}
+
+/* Image Styles */
+.ngo-card img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+.ngo-card img:hover {
+    transform: scale(1.05); /* Scale the image to 105% on hover */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-form {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form .send-btn {
+    background-color: #f05025;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form .send-btn:hover {
+    background-color: #e63900;
+}
+
+.contact-info {
+    flex-basis: 40%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.follow-us {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.line {
+    width: 50px; /* Adjust the width to your needs */
+    height: 3px;  /* Height of the line */
+    background-color: #f05025; /* Orange color */
+    margin: 10px auto; /* Center the line and space around it */
+}
+
+
+.blog-section {
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.blog-card img:hover{
+    transform: scale(1.05);
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.date {
+    font-size: 20px;
+    color: #f05025;
+    margin-bottom: 15px;
+}
+
+.blog-content p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #f05025;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+.about-us-container {
+    text-align: center;
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-us-container h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.about-text p {
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5em;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: 30%;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.image-item p {
+    margin-top: 0.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .about-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-item {
+        width: 80%;
+        margin-bottom: 1.5em;
+    }
+}
+
+
+
+
+
+
