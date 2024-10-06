@@ -73,3 +73,87 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+
+
+ 
+
+   
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Cart Array to store cart items
+    let cart = [];
+
+    // Check if cart data already exists in localStorage
+    if (localStorage.getItem('cart')) {
+        cart = JSON.parse(localStorage.getItem('cart'));
+        updateCartUI();
+    }
+
+    // Function to fetch product data (simulate fetching from a JSON file)
+    function fetchData() {
+        return fetch('data.json') // Path to your JSON file
+            .then(response => response.json())
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                return []; // Return empty array on error to prevent issues
+            });
+    }
+
+    // Add to Cart Event Handler
+    document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+        button.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // Get product details
+            const productElement = this.closest('.product-item');
+            const productName = productElement.querySelector('h3').textContent;
+            const productPrice = parseFloat(productElement.querySelector('p strong').nextSibling.textContent.replace('₹', '').trim());
+
+            // Create product object
+            const product = {
+                name: productName,
+                price: productPrice,
+                quantity: 1
+            };
+
+            // Add product to cart or update quantity if already in cart
+            const productIndex = cart.findIndex(item => item.name === productName);
+            if (productIndex > -1) {
+                cart[productIndex].quantity += 1; // Increment quantity if item already exists
+            } else {
+                cart.push(product); // Add new product to cart
+            }
+
+            // Save cart to localStorage
+            localStorage.setItem('cart', JSON.stringify(cart));
+
+            // Update Cart UI
+            updateCartUI();
+        });
+    });
+
+    // Function to update Cart UI
+    function updateCartUI() {
+        const cartItemsContainer = document.getElementById('cart-items');
+        const cartTotalElement = document.getElementById('cart-total');
+        cartItemsContainer.innerHTML = ''; // Clear previous content
+        let total = 0;
+
+        cart.forEach(item => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${item.name} - ₹${item.price} x ${item.quantity}`;
+            cartItemsContainer.appendChild(listItem);
+
+            total += item.price * item.quantity;
+        });
+
+        // Update total in the UI
+        cartTotalElement.textContent = total.toFixed(2);
+    }
+});
