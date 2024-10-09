@@ -421,6 +421,67 @@ nav {
     text-align: center;
     padding: 200px 0;
 }
+.hero-aboutus{
+    background: url('https://www.nespthreatenedspecies.edu.au/media/dzhnixjo/cat-outside_credit-rotiv-artic-unsplash.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+.hero-offering{
+    background: url('https://canna-pet.com/wp-content/uploads/2019/06/PuppyFoodFT-1024x683.jpg') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+
+
+
+
+
+
+
+.hero-explore{
+    background: url('https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MjAwNjM1MzU1Mzk5OTg4MzMy/300-aesthetic-cat-names.png') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+.hero-addtocart{
+    background: url('https://publish.purewow.net/wp-content/uploads/sites/2/2022/05/pet-travel-accessories-cat.jpg?fit=728%2C524') no-repeat center center/cover;
+    color: #fffffffa;
+    text-align: center;
+    padding:200px 0;
+}
+
+.cart{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.cart-items{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+
+}
+
+
+
+
+
+
+
+
+
 
 /* General page styling */
 body {
@@ -784,9 +845,97 @@ h2 {
 
 
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+ 
 
 
 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+.about-us-container {
+    text-align: center;
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-us-container h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.about-text p {
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5em;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: 30%;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.image-item p {
+    margin-top: 0.5em;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .about-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-item {
+        width: 80%;
+        margin-bottom: 1.5em;
+    }
+}
 
 
 
